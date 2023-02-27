@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_page_home">
+
+    <fragment
+        android:id="@+id/nav_page_home"
+        android:name="com.tongsr.wanapp.pkg.home.WanPageHomeFragment"
+        android:label="@string/wan_page_home"/>
+
+    <fragment
+        android:id="@+id/nav_square"
+        android:name="com.tongsr.wanapp.pkg.square.WanSquareFragment"
+        android:label="@string/wan_square"/>
+
+    <fragment
+        android:id="@+id/nav_official_accounts"
+        android:name="com.tongsr.wanapp.pkg.official_accounts.WanOfficialAccountsFragment"
+        android:label="@string/wan_official_accounts"/>
+
+    <fragment
+        android:id="@+id/nav_system"
+        android:name="com.tongsr.wanapp.pkg.system.WanSystemFragment"
+        android:label="@string/wan_system"/>
+
+    <fragment
+        android:id="@+id/nav_project"
+        android:name="com.tongsr.wanapp.pkg.project.WanProjectFragment"
+        android:label="@string/wan_project"/>
+
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_page_home"
+        android:icon="@drawable/ic_page_home"
+        android:title="@string/wan_page_home" />
+
+    <item
+        android:id="@+id/nav_square"
+        android:icon="@drawable/ic_square"
+        android:title="@string/wan_square" />
+
+    <item
+        android:id="@+id/nav_official_accounts"
+        android:icon="@drawable/ic_official_accounts"
+        android:title="@string/wan_official_accounts" />
+
+    <item
+        android:id="@+id/nav_system"
+        android:icon="@drawable/ic_system"
+        android:title="@string/wan_system" />
+
+    <item
+        android:id="@+id/nav_project"
+        android:icon="@drawable/ic_project"
+        android:title="@string/wan_project" />
+
+</menu>

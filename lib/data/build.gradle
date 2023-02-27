@@ -1,0 +1,7 @@
+dependencies {
+    // 网络数据
+    api Config.depConfig.retrofit.dep
+    api Config.depConfig.retrofitConverter.dep
+    // 本地数据
+    api Config.depConfig.datastore.dep
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/wanapp/home",
+    "className": "com.tongsr.wanapp.pkg.main.WanMainActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/wanapp/home",
+    "className": "com.tongsr.wanapp.pkg.main.WanHomeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/test/web",
+    "className": "com.tongsr.test.pkg.WebTestActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

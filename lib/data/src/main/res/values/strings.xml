@@ -1,0 +1,9 @@
+<resources>
+    <string name="api_error_net">网络异常</string>
+    <string name="api_error_json_parse">数据异常</string>
+    <string name="api_error_socket_timeout">连接超时</string>
+    <string name="api_error_connect">连接错误</string>
+    <string name="api_error_cancellation">Cancellation Exception</string>
+    <string name="api_error_unknown">未知错误</string>
+
+</resources>

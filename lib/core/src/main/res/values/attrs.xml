@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- 自定义 ViewStub -->
+  <declare-styleable name="CustomViewStub">
+    <!-- 布局 id -->
+    <attr name="android:layout" />
+  </declare-styleable>
+
+</resources>

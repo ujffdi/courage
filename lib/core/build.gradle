@@ -1,0 +1,35 @@
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    api Config.depConfig.lib_router.dep
+    api Config.depConfig.lib_data.dep
+
+    api Config.depConfig.androidxCore.dep
+    api Config.depConfig.activityKtx.dep
+    api Config.depConfig.fragmentKtx.dep
+    api Config.depConfig.lifecycleRuntimeKtx.dep
+    api Config.depConfig.lifecycleLivedataCodeKtx.dep
+    api Config.depConfig.androidxAppcompat.dep
+    api Config.depConfig.androidxMaterial.dep
+    api Config.depConfig.constraintLayout.dep
+    api Config.depConfig.paging3.dep
+    api Config.depConfig.paging3ktx.dep
+    api Config.depConfig.navigation.dep
+    api Config.depConfig.navigationKtx.dep
+    api Config.depConfig.recyclerview.dep
+    api Config.depConfig.coil.dep
+    /*api Config.depConfig.glide.dep
+    kapt Config.depConfig.glideCompiler.dep*/
+    api Config.depConfig.coreCoroutines.dep
+    api Config.depConfig.androidCoroutines.dep
+    api Config.depConfig.utils.dep
+    api Config.depConfig.viewBindingUtils.dep
+    api Config.depConfig.tabLayout.dep
+    api Config.depConfig.timber.dep
+    api Config.depConfig.brvah.dep
+    /*api Config.depConfig.room.dep
+    kapt Config.depConfig.roomCompiler.dep
+    api Config.depConfig.roomKtx.dep
+    api Config.depConfig.roomPaging.dep*/
+    debugImplementation Config.depConfig.leakcanary.dep
+}

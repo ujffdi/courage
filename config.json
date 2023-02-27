@@ -1,0 +1,19 @@
+{
+  "appConfigDesc": "appConfig 配置的是可以跑 app 的模块，git 提交务必只包含 launcher",
+  "appConfig": ["launcher","wanapp"],
+
+  "pkgConfigDesc": "pkgConfig 配置的是要依赖的功能包，为空则依赖全部，git 提交务必为空",
+  "pkgConfig": [],
+  "proConfigDesc": "proConfig 配置的是使用本地还是仓库，优先级低于 appConfig 和 pkgConfig",
+  "proConfig": [
+    {"isApply": true, "useLocal": true, "localPath": ":feature:launcher:app"},
+    {"isApply": true, "useLocal": true, "localPath": ":feature:wanapp:app"},
+    {"isApply": true, "useLocal": true, "localPath": ":feature:wanapp:pkg"},
+    {"isApply": true, "useLocal": true, "localPath": ":feature:wanapp:export"},
+    {"isApply": true, "useLocal": true, "localPath": ":feature:test:pkg"},
+    {"isApply": true, "useLocal": true, "localPath": ":feature:test:export"},
+    {"isApply": true, "useLocal": true, "localPath": ":lib:core"},
+    {"isApply": true, "useLocal": true, "localPath": ":lib:data"},
+    {"isApply": true, "useLocal": true, "localPath": ":lib:router"}
+  ]
+}
