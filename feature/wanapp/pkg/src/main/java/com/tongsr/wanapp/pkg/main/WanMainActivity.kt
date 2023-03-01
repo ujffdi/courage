@@ -2,6 +2,7 @@ package com.tongsr.wanapp.pkg.main
 
 import android.os.Bundle
 import android.view.View
+import androidx.activity.viewModels
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
@@ -24,6 +25,8 @@ import com.tongsr.wanapp.pkg.databinding.ActivityWanMainBinding
 class WanMainActivity : BaseActivity() {
 
     private val mBinding by viewBinding(ActivityWanMainBinding::bind)
+
+    private val mWanMainViewMode by viewModels<WanMainViewModel>()
 
     private val navController = NavInitController()
 

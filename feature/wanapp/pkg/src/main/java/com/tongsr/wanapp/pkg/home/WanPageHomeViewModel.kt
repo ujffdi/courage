@@ -2,18 +2,9 @@ package com.tongsr.wanapp.pkg.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.viewModelScope
-import com.blankj.utilcode.util.LogUtils
 import com.tongsr.core.base.BaseViewModel
-import com.tongsr.core.base.executeRequest
-import com.tongsr.data.remote.NetworkClient
 import com.tongsr.wanapp.export.entity.WanBannerEntity
-import com.tongsr.wanapp.export.provider.WanPageHomeProvider
-import com.tongsr.wanapp.export.service.WanPageHomeService
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.launch
+import com.tongsr.wanapp.export.repository.WanPageHomeProvider
 
 /**
  * @author Tongsr
@@ -32,4 +23,5 @@ class WanPageHomeViewModel : BaseViewModel() {
     fun getBannerData() {
 
     }
+
 }

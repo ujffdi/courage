@@ -14,6 +14,7 @@ import com.tongsr.wanapp.pkg.R
  * @description WanApp 首页
  */
 class WanPageHomeFragment : BaseFragment() {
+
     private val viewModel by viewModels<WanPageHomeViewModel>()
 
     override fun initData(bundle: Bundle?) {

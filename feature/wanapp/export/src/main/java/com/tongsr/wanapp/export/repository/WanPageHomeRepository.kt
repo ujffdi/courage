@@ -1,4 +1,4 @@
-package com.tongsr.wanapp.export.provider
+package com.tongsr.wanapp.export.repository
 
 import com.tongsr.data.remote.NetworkClient
 import com.tongsr.data.remote.entity.WanApiResult
@@ -15,7 +15,7 @@ import kotlinx.coroutines.flow.Flow
  * @email ujffdtfivkg@gmail.com
  * @description WanApp 首页数据提供者
  */
-class WanPageHomeProvider : WanPageHomeApi {
+class WanPageHomeRepository : WanPageHomeApi {
 
     private val wanPageHomeService = NetworkClient.wanApiClient.create(WanPageHomeService::class.java)
 

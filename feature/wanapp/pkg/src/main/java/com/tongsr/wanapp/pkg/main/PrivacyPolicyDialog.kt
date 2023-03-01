@@ -2,6 +2,7 @@ package com.tongsr.wanapp.pkg.main
 
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.viewModels
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.blankj.utilcode.util.ShadowUtils
 import com.tongsr.core.base.BaseDialogFragment
@@ -23,6 +24,8 @@ class PrivacyPolicyDialog : BaseDialogFragment() {
 
     private val mBinging by viewBinding(DialogPrivacyPolicyBinding::bind)
 
+    private val mViewModel by viewModels<PrivacyPolicyViewModel>()
+
     override fun initData(bundle: Bundle?) {
 
     }
@@ -38,6 +41,7 @@ class PrivacyPolicyDialog : BaseDialogFragment() {
                     .setShadowRadius(6.dp)
             )
         }
+        setTouchExAndBackNoDismiss()
     }
 
     override fun doBusiness() {
